@@ -29,15 +29,15 @@ func jsonToMap() {
 }
 
 func init() {
-	// RepoCreate(models.KVmap{Key: "apr", Value: "April"})
-	// RepoCreate(models.KVmap{Key: "mar", Value: "March"})
-	// RepoCreate(models.KVmap{Key: "may", Value: "May"})
-	// RepoCreate(models.KVmap{Key: "jan", Value: "January"})
-	// RepoCreate(models.KVmap{Key: "feb", Value: "February"})
-	// RepoCreate(models.KVmap{Key: "jun", Value: "June"})
-	// RepoCreate(models.KVmap{Key: "jul", Value: "July"})
-	// RepoCreate(models.KVmap{Key: "sep", Value: "September"})
-	jsonToMap()
+	RepoCreate(models.KVmap{Key: "apr", Value: "April"})
+	RepoCreate(models.KVmap{Key: "mar", Value: "March"})
+	RepoCreate(models.KVmap{Key: "may", Value: "May"})
+	RepoCreate(models.KVmap{Key: "jan", Value: "January"})
+	RepoCreate(models.KVmap{Key: "feb", Value: "February"})
+	RepoCreate(models.KVmap{Key: "jun", Value: "June"})
+	RepoCreate(models.KVmap{Key: "jul", Value: "July"})
+	RepoCreate(models.KVmap{Key: "sep", Value: "September"})
+	// jsonToMap()
 }
 
 func RepoFind(key string) models.KVmap {
